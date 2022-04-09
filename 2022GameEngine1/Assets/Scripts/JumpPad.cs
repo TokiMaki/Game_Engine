@@ -21,6 +21,6 @@ public class JumpPad : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //other.attachedRigidbody.velocity = Vector3.zero;
-        other.attachedRigidbody.AddForce(Vector3.up * force, ForceMode.VelocityChange);
+        other.attachedRigidbody.AddForce(transform.up * force, ForceMode.VelocityChange);
     }
 }
