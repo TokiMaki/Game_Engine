@@ -14,6 +14,6 @@ public class Windmill : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        wing.transform.Rotate(new Vector3(0, 0, 1), 360 * Time.deltaTime);
+        wing.transform.Rotate(transform.forward, 360 * Time.deltaTime);
     }
 }
