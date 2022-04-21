@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerControls _playerControls;
     public Camera _camera;
     public LayerMask interacableLayer;
+    public Vector3 moveDir;
     public bool _isGrounded { get; private set; }
 
     private float _jumpPower = 500;
@@ -33,13 +34,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        if (_playerControls.Move.magnitude >= 0.1f)
+        if (_playerControls.Move.magnitude >= 0.1f && _rigidbody.velocity.magnitude <= 3.0f)
         {
             float targetAngle = Mathf.Atan2(_playerControls.Move.x, _playerControls.Move.y) * Mathf.Rad2Deg +
                                 _camera.transform.eulerAngles.y;
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             moveDir = moveDir.normalized;
-            _rigidbody.AddForce(moveDir * Time.deltaTime * 100);
+            _rigidbody.AddForce(moveDir * Time.deltaTime * 300);
         }
     }
 
