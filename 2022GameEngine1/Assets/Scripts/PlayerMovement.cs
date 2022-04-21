@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
                                 _camera.transform.eulerAngles.y;
             moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             moveDir = moveDir.normalized;
-            _rigidbody.AddForce(moveDir * Time.deltaTime * 300);
+            _rigidbody.AddForce(moveDir * Time.deltaTime * 500);
         }
     }
 
