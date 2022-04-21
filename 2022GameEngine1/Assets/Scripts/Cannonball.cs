@@ -24,7 +24,7 @@ public class Cannonball : MonoBehaviour
         {
             if(col.GetComponent<Rigidbody>() != null)
             {
-                col.GetComponent<Rigidbody>().AddExplosionForce(250.0f, transform.position, 15.0f, 250.0f);
+                col.GetComponent<Rigidbody>().AddExplosionForce(700.0f, transform.position, 15.0f, 300.0f);
             }
         }
     }
