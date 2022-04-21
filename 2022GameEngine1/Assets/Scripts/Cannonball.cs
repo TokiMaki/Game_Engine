@@ -19,22 +19,22 @@ public class Cannonball : MonoBehaviour
 
     void Explosion()
     {
-        Collider[] cols = Physics.OverlapSphere(transform.position, 10.0f);
+        Collider[] cols = Physics.OverlapSphere(transform.position, 15.0f);
         foreach(Collider col in cols)
         {
             if(col.GetComponent<Rigidbody>() != null)
             {
-                col.GetComponent<Rigidbody>().AddExplosionForce(100.0f, transform.position, 10.0f);
+                col.GetComponent<Rigidbody>().AddExplosionForce(250.0f, transform.position, 15.0f, 250.0f);
             }
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.layer == 3 || other.tag == "Player")
+        if (other.gameObject.layer == 3 || other.gameObject.tag == "Player")
         {
             Explosion();
-            Destroy(this);
+            Destroy(transform.root.gameObject);
         }
     }
 }
