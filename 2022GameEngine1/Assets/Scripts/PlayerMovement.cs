@@ -41,10 +41,6 @@ public class PlayerMovement : MonoBehaviour
             moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             moveDir = moveDir.normalized;
             _rigidbody.AddForce(moveDir * Time.deltaTime * 300);
-            if (_rigidbody.velocity.magnitude <= 4.0f)
-            {
-                
-            }
         }
     }
 

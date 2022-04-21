@@ -20,7 +20,10 @@ public class AcceleratePad : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        var dir = other.GetComponent<PlayerMovement>().moveDir;
-        other.attachedRigidbody.AddForce(dir * force, ForceMode.VelocityChange);
+        if (other.tag == "Player")
+        {
+            var dir = other.GetComponent<PlayerMovement>().moveDir;
+            other.attachedRigidbody.AddForce(dir * force, ForceMode.VelocityChange);
+        }
     }
 }
