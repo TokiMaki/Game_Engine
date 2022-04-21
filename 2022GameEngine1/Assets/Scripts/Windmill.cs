@@ -5,6 +5,8 @@ using UnityEngine;
 public class Windmill : MonoBehaviour
 {
     public GameObject wing;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
