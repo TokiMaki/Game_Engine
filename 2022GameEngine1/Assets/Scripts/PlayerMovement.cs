@@ -34,13 +34,17 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        if (_playerControls.Move.magnitude >= 0.1f && _rigidbody.velocity.magnitude <= 3.0f)
+        if (_playerControls.Move.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(_playerControls.Move.x, _playerControls.Move.y) * Mathf.Rad2Deg +
                                 _camera.transform.eulerAngles.y;
             moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             moveDir = moveDir.normalized;
             _rigidbody.AddForce(moveDir * Time.deltaTime * 300);
+            if (_rigidbody.velocity.magnitude <= 4.0f)
+            {
+                
+            }
         }
     }
 
