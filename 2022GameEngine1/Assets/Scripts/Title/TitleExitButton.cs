@@ -7,6 +7,7 @@ public class TitleExitButton : MonoBehaviour
 {
     public void OnCLick()
     {
+        SoundManager.instance.PlayBtnClick();
         Application.Quit();
     }
 }

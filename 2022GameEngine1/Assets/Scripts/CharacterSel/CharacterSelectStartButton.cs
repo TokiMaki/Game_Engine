@@ -7,6 +7,7 @@ public class CharacterSelectStartButton : MonoBehaviour
 {
     public void OnCLick()
     {
+        SoundManager.instance.PlayBtnClick();
         SceneManager.LoadScene("Game");
     }
 }
