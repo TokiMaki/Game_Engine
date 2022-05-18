@@ -6,12 +6,23 @@ using UnityEngine.InputSystem.Composites;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioSource titleBGM;
+    public AudioSource BGM;
     public AudioSource fx;
     public AudioClip btnClick;
 
     public static SoundManager instance;
 
+    private string nowBGM;
+    
+    [Serializable]
+    public struct BgmInfo
+    {
+        public string name;
+        public AudioClip audio;
+    }
+
+    public BgmInfo[] BGMList;
+    
     private void Awake()
     {
         DontDestroyOnLoad(this);
@@ -23,13 +34,32 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        PlayTitleBGM();
+        BGM.loop = true;
+        PlayBGM("title");
     }
 
-    public void PlayTitleBGM()
+    private void Update()
     {
-        titleBGM.loop = true;
-        titleBGM.Play();
+        if (nowBGM == "gamestart")
+        {
+            if (!BGM.isPlaying)
+            {
+                PlayBGM("gameloop");
+            }
+        }
+    }
+
+    public void PlayBGM(string bgmName)
+    {
+        if (nowBGM == bgmName) return;
+        BGM.loop = bgmName is "title" or "result" or "gameloop";
+        foreach (var target in BGMList)
+        {
+            if (target.name != bgmName) continue;
+            BGM.clip = target.audio;
+            BGM.Play();
+            nowBGM = bgmName;
+        }
     }
 
     public void PlayBtnClick()
