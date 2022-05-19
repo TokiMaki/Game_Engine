@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+    private bool _invincible = false;
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -42,5 +43,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void TurnOnInvincible()
+    {
+        _invincible = true;
+        Invoke("TurnOffInvincible", 3);
+    }
+
+    private void TurnOffInvincible()
+    {
+        _invincible = false;
     }
 }
