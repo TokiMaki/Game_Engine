@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public GameObject Pplayer;
     public float Score;
     public bool Item_Event;
-    public float Item_time; //ì´ë²¤íŠ¸ê°€ ì§„í–‰ë˜ëŠ” ë™ì•ˆ ì¤„ì–´ë“œëŠ” ê²Œì´ì§€ì˜ ì†ë„
+    public float Item_time; //?´ë²¤íŠ¸ê°? ì§„í–‰?˜?Š” ?™?•ˆ ì¤„ì–´?“œ?Š” ê²Œì´ì§??˜ ?†?„
+    private bool _invincible = false;
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -50,5 +51,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void TurnOnInvincible()
+    {
+        _invincible = true;
+        Invoke("TurnOffInvincible", 3);
+    }
+
+    private void TurnOffInvincible()
+    {
+        _invincible = false;
     }
 }
