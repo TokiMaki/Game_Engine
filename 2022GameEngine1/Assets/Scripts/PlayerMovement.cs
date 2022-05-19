@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
             moveDir = moveDir.normalized;
             _rigidbody.AddForce(moveDir * Time.deltaTime * 500);
         }
+        
     }
 
     public void Jump()
