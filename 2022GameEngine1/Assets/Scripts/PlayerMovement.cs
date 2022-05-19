@@ -25,22 +25,28 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         CheckGround();
+        _rigidbody.AddForce(Input.GetAxis("Horizontal") * Time.deltaTime * 500, 0, 0);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
+        }
     }
 
     private void FixedUpdate()
     {
-        Movement();
+        //Movement();
     }
 
     void Movement()
     {
+        
         if (_playerControls.Move.magnitude >= 0.1f)
         {
-            float targetAngle = Mathf.Atan2(_playerControls.Move.x, _playerControls.Move.y) * Mathf.Rad2Deg +
-                                _camera.transform.eulerAngles.y;
-            moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            //float targetAngle = Mathf.Atan2(_playerControls.Move.x, _playerControls.Move.y) * Mathf.Rad2Deg +
+           //                     _camera.transform.eulerAngles.y;
+           // moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             moveDir = moveDir.normalized;
-            _rigidbody.AddForce(moveDir * Time.deltaTime * 500);
+            
         }
     }
 
