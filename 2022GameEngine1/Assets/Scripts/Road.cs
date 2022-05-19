@@ -1,26 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Road : MonoBehaviour
 {
+    public int _Num;            // 몇번째 길인지
+    public Quaternion Rotation; // 돌아갔는지
     public float _Roadlength;
-    private List<Obstacle> _Obstacles;
+    public GameObject Pref;
+    public List<Obstacle> _Obstacles;
 
-    // Start is called before the first frame update
-    void Start()
+    public void init(int num, float length, int minInterval, int maxInterval)     // 길 길이, 최소 간격, 최대 간격
     {
-        
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void init()
-    {
-        
+        _Num = num;
+        _Roadlength = length;
+        int depth = 0;
+        while (depth < length)
+        {
+            Obstacle obstacle = new Obstacle();
+            obstacle.init(depth);
+            _Obstacles.Add(obstacle);
+            depth += Random.Range(minInterval, maxInterval);
+        }
     }
 }

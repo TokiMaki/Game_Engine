@@ -12,25 +12,16 @@ public class Obstacle : MonoBehaviour
         Down,
         Count
     }
-
-    public ObstacleKind _ObstacleKind;
-    public float _Depth;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
     
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public ObstacleKind _ObstacleKind;
+    public int _Depth;
+    
+    public 
 
-    void init(float depth)
+    public void init(int depth)
     {
         _ObstacleKind = (ObstacleKind) Random.Range(0, (int) ObstacleKind.Count);
         _Depth = depth;
     }
+
 }
