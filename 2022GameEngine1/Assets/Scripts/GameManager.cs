@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject Pplayer;
     public float Score;
     public bool Item_Event;
-    public float Item_time; //?씠踰ㅽ듃媛? 吏꾪뻾?릺?뒗 ?룞?븞 以꾩뼱?뱶?뒗 寃뚯씠吏??쓽 ?냽?룄
+    public float Item_time; //아이템이 실행되는 동안에 게이지가 줄어드는 속도
     private bool _invincible = false;
     public static GameManager GetInstance()
     {
@@ -50,7 +50,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (playerstates.health <= 0)
+        {
+            playerstates.Die();
+        }
     }
 
     public void TurnOnInvincible()

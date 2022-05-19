@@ -58,7 +58,7 @@ public class Item_Manager : MonoBehaviour
 
     public void choice_Item()
     {
-        item_num = 0;
+        item_num = Random.Range(0,4);
         switch (item_num)
         {
             case 0:

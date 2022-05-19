@@ -14,7 +14,7 @@ public class PlayerState : MonoBehaviour
     void Start()
     {
         max_health = 5;
-        health = 1;
+        health = max_health;
         _dead = false;
     }
 
