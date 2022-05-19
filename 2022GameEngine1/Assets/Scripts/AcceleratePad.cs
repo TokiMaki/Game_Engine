@@ -22,8 +22,9 @@ public class AcceleratePad : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            GameManager.GetInstance().TurnOnInvincible();
             var dir = other.GetComponent<PlayerMovement>().moveDir;
-            other.attachedRigidbody.AddForce(dir * force, ForceMode.VelocityChange);
+            other.attachedRigidbody.AddForce(Vector3.forward * force, ForceMode.Impulse);
         }
     }
 }
