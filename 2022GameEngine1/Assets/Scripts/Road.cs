@@ -18,8 +18,7 @@ public class Road : MonoBehaviour
         int depth = 0;
         while (depth < length)
         {
-            Obstacle obstacle = new Obstacle();
-            obstacle.init(depth);
+            Obstacle obstacle = new Obstacle(depth);
             _Obstacles.Add(obstacle);
             depth += Random.Range(minInterval, maxInterval);
         }
