@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public PlayerState playerstates;
     public GameObject Pplayer;
+    public float Score;
+    public bool Item_Event;
+    public float Item_time; //이벤트가 진행되는 동안 줄어드는 게이지의 속도
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -20,6 +23,7 @@ public class GameManager : MonoBehaviour
             }
         }
         return instance;
+        
     }
 
     private void Awake()
@@ -37,6 +41,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Score = 0;
+        Item_time = 0.1f;
         playerstates = Pplayer.GetComponent<PlayerState>();
     }
 
