@@ -6,12 +6,11 @@ public class Obstacle
 {
     public enum ObstacleKind
     {
-        Left,
+        Flower,
         Right,
-        Jump,
-        Down,
         Count
     }
+    
     public Obstacle(int depth)
     {
         init(depth);

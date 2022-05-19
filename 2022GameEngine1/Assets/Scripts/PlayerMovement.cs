@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
         if (_isGrounded)
         {
             Vector3 jump = new Vector3(0, 1, 0);
-            _rigidbody.AddForce(Vector3.up * 5, ForceMode.Impulse);
+            _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
         }
     }
     
