@@ -15,6 +15,6 @@ public class ZGameObject : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(0, 0, _LookAt.position.z);
+        transform.position = new Vector3(0, transform.position.y, _LookAt.position.z);
     }
 }
