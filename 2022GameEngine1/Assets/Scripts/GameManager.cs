@@ -6,6 +6,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+    public PlayerState playerstates;
+    public GameObject Pplayer;
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -35,7 +37,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerstates = Pplayer.GetComponent<PlayerState>();
     }
 
     // Update is called once per frame
