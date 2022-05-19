@@ -8,7 +8,7 @@ public class RoadMaker : MonoBehaviour
     public float _MaxRoadlength = 30;
     public int _MinObstacleInterval = 3;
     public int _MaxObstacleInterval = 6;
-    public List<Road> _Roads;
+    public List<Road> _Roads = new List<Road>();
 
     public List<GameObject> ObstaclePrefs;
     public GameObject RoadPref;
@@ -31,9 +31,8 @@ public class RoadMaker : MonoBehaviour
     {
         for (int i = 0; i < num; ++i)
         {
-            Road road = new Road();
             float length = Random.Range(_MinRoadlength, _MaxRoadlength);
-            road.init(i, length, _MinObstacleInterval, _MaxObstacleInterval);
+            Road road = new Road(i, length, _MinObstacleInterval, _MaxObstacleInterval);
             _Roads.Add(road);
         }
     }
@@ -51,7 +50,6 @@ public class RoadMaker : MonoBehaviour
             Vector3 Prefsposition = ObstaclePrefs[(int) obstacle._ObstacleKind].transform.position;
             Prefsposition.z = obstacle._Depth;
             ObstacleObject.transform.position = Prefsposition;
-            ObstacleObject.transform.SetParent(roadObject.transform);
         }
     }
     
