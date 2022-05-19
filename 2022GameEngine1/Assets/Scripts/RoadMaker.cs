@@ -6,8 +6,8 @@ public class RoadMaker : MonoBehaviour
 {
     public float _MinRoadlength = 20;
     public float _MaxRoadlength = 30;
-    public int _MinObstacleInterval = 3;
-    public int _MaxObstacleInterval = 6;
+    public int _MinObstacleInterval = 5;
+    public int _MaxObstacleInterval = 10;
     public List<Road> _Roads = new List<Road>();
 
     public List<GameObject> ObstaclePrefs;
