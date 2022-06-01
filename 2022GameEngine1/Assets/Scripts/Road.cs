@@ -16,6 +16,11 @@ public class Road
         _Num = num;
         _Roadlength = length;
         int depth = 0;
+        if (num == 0)
+        {
+            depth += 5;
+        }
+
         while (depth < length * 10.0f)
         {
             Obstacle obstacle = new Obstacle(depth);

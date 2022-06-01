@@ -6,8 +6,10 @@ public class Obstacle
 {
     public enum ObstacleKind
     {
-        Flower,
-        Right,
+        Cube1,
+        Cube2,
+        Cube3,
+        Cube4,
         Count
     }
     

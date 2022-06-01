@@ -16,7 +16,7 @@ public class RoadMaker : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        init(100);
+        init(10);
         Install();
         print("이상무");
     }
@@ -39,22 +39,25 @@ public class RoadMaker : MonoBehaviour
     
     public void Install()
     {
-        Road road = _Roads[0];
-
-        for (int i = 0; i < road._Roadlength; ++i)
+        int totalRoadLength = 0;
+        foreach (var road in _Roads)
         {
-            GameObject roadObject = Instantiate(RoadPref);
-            roadObject.transform.position =
-                new Vector3(roadObject.transform.position.x, roadObject.transform.position.y, i * 10);
-        }
+            for (int i = totalRoadLength; i < totalRoadLength + road._Roadlength; ++i)
+            {
+                GameObject roadObject = Instantiate(RoadPref);
+                roadObject.transform.position =
+                    new Vector3(roadObject.transform.position.x, roadObject.transform.position.y, i * 10);
+            }
 
 
-        foreach (var obstacle in road._Obstacles)
-        {
-            GameObject ObstacleObject = Instantiate(ObstaclePrefs[(int) obstacle._ObstacleKind]);
-            Vector3 Prefsposition = ObstaclePrefs[(int) obstacle._ObstacleKind].transform.position;
-            Prefsposition.z = obstacle._Depth;
-            ObstacleObject.transform.position = Prefsposition;
+            foreach (var obstacle in road._Obstacles)
+            {
+                GameObject ObstacleObject = Instantiate(ObstaclePrefs[(int) obstacle._ObstacleKind]);
+                Vector3 Prefsposition = ObstaclePrefs[(int) obstacle._ObstacleKind].transform.position;
+                Prefsposition.z = totalRoadLength * 10f + obstacle._Depth;
+                ObstacleObject.transform.position = Prefsposition;
+            }
+            totalRoadLength += road._Roadlength;
         }
     }
     
