@@ -37,7 +37,9 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         // transform.position += new Vector3(0, 0, 3f * Time.deltaTime);
-        _rigidbody.AddForce(0, 0, 500f * Time.deltaTime);
+        //_rigidbody.AddForce(0, 0, 500f * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
+            10f *(240f / 60f) * Time.deltaTime);
     }
 
     void Movement()

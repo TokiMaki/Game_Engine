@@ -13,17 +13,18 @@ public class Obstacle
         Count
     }
     
-    public Obstacle(int depth)
+    public Obstacle(float t)
     {
-        init(depth);
+        init(t);
     }
 
     public ObstacleKind _ObstacleKind;
     public int _Depth;
+    public float time;
     
-    public void init(int depth)
+    private void init(float t)
     {
         _ObstacleKind = (ObstacleKind) Random.Range(0, (int) ObstacleKind.Count);
-        _Depth = depth;
+        time= t;
     }
 }

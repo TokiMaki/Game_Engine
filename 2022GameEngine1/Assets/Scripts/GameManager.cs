@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerstates.health <= 0)
+        if (playerstates.health <= -9990)
         {
             playerstates.Die();
         }

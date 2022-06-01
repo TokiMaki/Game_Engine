@@ -11,7 +11,7 @@ public class Road
     public GameObject Pref;
     public List<Obstacle> _Obstacles = new List<Obstacle>();
 
-    public Road(int num, int length, int minInterval, int maxInterval)     // 길 길이, 최소 간격, 최대 간격
+    public Road(int num, float bpm ,int length, int minInterval, int maxInterval)     // 길 길이, 최소 간격, 최대 간격
     {
         _Num = num;
         _Roadlength = length;
@@ -20,12 +20,8 @@ public class Road
         {
             depth += 5;
         }
-
-        while (depth < length * 10.0f)
-        {
-            Obstacle obstacle = new Obstacle(depth);
-            _Obstacles.Add(obstacle);
-            depth += Random.Range(minInterval, maxInterval);
-        }
+        
+        Obstacle obstacle = new Obstacle(1000*num);
+        _Obstacles.Add(obstacle);
     }
 }
