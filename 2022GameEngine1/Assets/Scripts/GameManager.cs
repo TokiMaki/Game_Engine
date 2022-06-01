@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public float Score;
     public bool Item_Event;
     public float Item_time; //아이템이 실행되는 동안에 게이지가 줄어드는 속도
+    public bool started = false;
+    public GameObject readyImage;
     private bool _invincible = false;
     public static GameManager GetInstance()
     {
@@ -44,6 +46,7 @@ public class GameManager : MonoBehaviour
     {
         Score = 0;
         Item_time = 0.1f;
+        Invoke("GameStart",5f);
         playerstates = Pplayer.GetComponent<PlayerState>();
     }
 
@@ -65,5 +68,13 @@ public class GameManager : MonoBehaviour
     private void TurnOffInvincible()
     {
         _invincible = false;
+    }
+
+    private void GameStart()
+    {
+        readyImage.SetActive(false);
+        SoundManager.instance.PlayBGM("game1");
+        Pplayer.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX|RigidbodyConstraints.FreezePositionY;
+        started = true;
     }
 }

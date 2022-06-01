@@ -31,6 +31,12 @@ public class PlayerMovement : MonoBehaviour
         // {
         //     // _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
         // }
+        if (GameManager.GetInstance().started)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
+                10f * (150f / 60f) * Time.deltaTime);
+            transform.Rotate(Vector3.right,150 * 2 * Time.deltaTime);
+        }
         Movement();
     }
 
@@ -38,8 +44,6 @@ public class PlayerMovement : MonoBehaviour
     {
         // transform.position += new Vector3(0, 0, 3f * Time.deltaTime);
         //_rigidbody.AddForce(0, 0, 500f * Time.deltaTime);
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
-            10f *(150f / 60f) * Time.deltaTime);
     }
 
     void Movement()
