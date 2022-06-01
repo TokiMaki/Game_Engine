@@ -16,7 +16,7 @@ public class RoadMaker : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        init(10);
+        init(100, 60);
         Install();
         print("이상무");
     }
@@ -27,18 +27,33 @@ public class RoadMaker : MonoBehaviour
         
     }
 
-    void init(int num)
+    void init(int num, float bpm)
     {
         for (int i = 0; i < num; ++i)
         {
             int length = Random.Range(_MinRoadlength, _MaxRoadlength);
-            Road road = new Road(i, length, _MinObstacleInterval, _MaxObstacleInterval);
+            Road road = new Road(i, bpm ,length, _MinObstacleInterval, _MaxObstacleInterval);
             _Roads.Add(road);
         }
     }
     
     public void Install()
     {
+        for (int i = 0; i < _Roads.Count; ++i)
+        {
+            GameObject roadObject = Instantiate(RoadPref);
+            roadObject.transform.position =
+                new Vector3(roadObject.transform.position.x, roadObject.transform.position.y, i * 10);
+
+            foreach (var obstacle in _Roads[i]._Obstacles)
+            {
+                GameObject ObstacleObject = Instantiate(ObstaclePrefs[(int) obstacle._ObstacleKind]);
+                Vector3 Prefsposition = ObstaclePrefs[(int) obstacle._ObstacleKind].transform.position;
+                Prefsposition.z = obstacle.time / 100;
+                ObstacleObject.transform.position = Prefsposition;
+            }
+        }
+        /*
         int totalRoadLength = 0;
         foreach (var road in _Roads)
         {
@@ -59,6 +74,7 @@ public class RoadMaker : MonoBehaviour
             }
             totalRoadLength += road._Roadlength;
         }
+        */
     }
     
 }
