@@ -18,6 +18,7 @@ public class RoadMaker : MonoBehaviour
     {
         init(100, 60);
         Install();
+        SoundManager.instance.PlayBGM("game1");
         print("이상무");
     }
 

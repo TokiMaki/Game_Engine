@@ -312,6 +312,8 @@ MonoBehaviour:
     audio: {fileID: 8300000, guid: 359b389153340ae4ab2b307e2034fe07, type: 3}
   - name: result
     audio: {fileID: 8300000, guid: ac833cc139364b748ab48a04abd1e6f7, type: 3}
+  - name: game1
+    audio: {fileID: 8300000, guid: cb33058190032db4c806d4d4f6a4b062, type: 3}
 --- !u!4 &499070949
 Transform:
   m_ObjectHideFlags: 0
