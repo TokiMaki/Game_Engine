@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -25,29 +26,56 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         CheckGround();
-        _rigidbody.AddForce(Input.GetAxis("Horizontal") * Time.deltaTime * 500, 0, 0);
-        if (Input.GetKeyDown(KeyCode.Space))
+        // _rigidbody.AddForce(Input.GetAxis("Horizontal") * Time.deltaTime * 500, 0, 0);
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     // _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
+        // }
+        if (GameManager.GetInstance().started)
         {
-            _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
+                10f * (150f / 60f) * Time.deltaTime);
+            transform.Rotate(Vector3.right,150 * 2 * Time.deltaTime);
         }
+        Movement();
     }
 
     private void FixedUpdate()
     {
-        //Movement();
+        // transform.position += new Vector3(0, 0, 3f * Time.deltaTime);
+        //_rigidbody.AddForce(0, 0, 500f * Time.deltaTime);
     }
 
     void Movement()
     {
-        
         if (_playerControls.Move.magnitude >= 0.1f)
         {
             //float targetAngle = Mathf.Atan2(_playerControls.Move.x, _playerControls.Move.y) * Mathf.Rad2Deg +
-           //                     _camera.transform.eulerAngles.y;
-           // moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            moveDir = moveDir.normalized;
-            
+            //                     _camera.transform.eulerAngles.y;
+            // moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            // moveDir = moveDir;
         }
+        
+        
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            transform.position = new Vector3(-4.0f, transform.position.y, transform.position.z);
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            transform.position = new Vector3(-2.0f, transform.position.y, transform.position.z);
+        }
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            transform.position = new Vector3(2.0f, transform.position.y, transform.position.z);
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            transform.position = new Vector3(4.0f, transform.position.y, transform.position.z);
+        }
+        // moveDir = _playerControls.Move.normalized;
+        // _rigidbody.AddForce(moveDir.x * Time.deltaTime * 500, 0, moveDir.y * Time.deltaTime * 500);
+        
     }
 
     public void Jump()
@@ -55,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         if (_isGrounded)
         {
             Vector3 jump = new Vector3(0, 1, 0);
-            _rigidbody.AddForce(jump * _jumpPower);
+            _rigidbody.AddForce(Vector3.up * 10, ForceMode.Impulse);
         }
     }
     
