@@ -12,6 +12,9 @@ public class StageSelect : MonoBehaviour
         public string soundName;
         public int level;
         public float bpm;
+        public int noteNum;
+        public int startNoteNum;
+        public int beat;
     }
 
     public static StageSelect instance;
