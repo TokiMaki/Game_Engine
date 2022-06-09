@@ -59,11 +59,13 @@ Material:
     - _DstBlend: 10
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _SrcBlend: 5
     - _Surface: 1
+    - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _MainColor: {r: 3.9999995, g: 2.0732982, b: 0, a: 0}
+    - _MainColor: {r: 0, g: 766.9961, b: 650.7927, a: 0}
   m_BuildTextureStacks: []
