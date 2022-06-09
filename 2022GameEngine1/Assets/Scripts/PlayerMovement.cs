@@ -7,6 +7,7 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private StageSelect _stageInfo = StageSelect.instance;
     private Rigidbody _rigidbody;
     private PlayerControls _playerControls;
     public Camera _camera;
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         if (GameManager.GetInstance().started)
         {
             transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
-                10f * (150f / 60f) * Time.deltaTime);
+                10f * (_stageInfo.Stages[_stageInfo.arrayIndex].bpm / 60f) * Time.deltaTime);
             transform.Rotate(Vector3.right,150 * 2 * Time.deltaTime);
         }
         Movement();
