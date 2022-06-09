@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+    private StageSelect _stageInfo = StageSelect.instance;
     public PlayerState playerstates;
     public GameObject Pplayer;
     public float Score;
@@ -73,7 +74,7 @@ public class GameManager : MonoBehaviour
     private void GameStart()
     {
         readyImage.SetActive(false);
-        SoundManager.instance.PlayBGM("game1");
+        SoundManager.instance.PlayBGM(_stageInfo.Stages[_stageInfo.arrayIndex].soundName);
         Pplayer.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX|RigidbodyConstraints.FreezePositionY;
         started = true;
     }
