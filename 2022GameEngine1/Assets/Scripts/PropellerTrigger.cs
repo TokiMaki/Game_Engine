@@ -26,7 +26,6 @@ public class PropellerTrigger : MonoBehaviour
              other.attachedRigidbody.AddForce(closestPointOnBoundsdir * _Force);
              // other.attachedRigidbody.AddForce(-transform.forward * _Force);
         }
-            
     }
     
     private void OnCollisionEnter(Collision other)
