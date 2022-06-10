@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerState : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class PlayerState : MonoBehaviour
 
     void Update()
     {
-        Respawn();
+        
     }
 
     public void Die()
@@ -30,21 +31,18 @@ public class PlayerState : MonoBehaviour
         {
             onDeath();
         }
+        Invoke("LoadResultScene", 3);
+    }
+
+    public void LoadResultScene()
+    {
+        SceneManager.LoadScene("Result");
     }
 
     // 맵 생성할 때 리스폰위치 설정
     public void SetRespawn(Vector3 respawnposition)
     {
         _respawnVector = respawnposition;
-    }
-
-    void Respawn()
-    {
-        if (_dead)
-        {
-            transform.position = _respawnVector;
-            _dead = false;
-        }
     }
 
     public void getDamage()
