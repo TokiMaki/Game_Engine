@@ -157,14 +157,23 @@ MonoBehaviour:
     soundName: V
     level: 3
     bpm: 150
+    noteNum: 300
+    startNoteNum: 4
+    beat: 4
   - name: "smooooch\u30FB\u2200\u30FB"
     soundName: smooooch
     level: 4
     bpm: 177
+    noteNum: 316
+    startNoteNum: 8
+    beat: 4
   - name: "\u2200"
     soundName: turnA
     level: 5
     bpm: 180
+    noteNum: 330
+    startNoteNum: 8
+    beat: 8
   arrayIndex: 0
 --- !u!4 &150297921
 Transform:

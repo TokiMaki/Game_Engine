@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
                     10f * (_stageInfo.Stages[_stageInfo.arrayIndex].bpm / 60f) * Time.deltaTime);
-                transform.Rotate(Vector3.right, 150 * 2 * Time.deltaTime);
+                transform.Rotate(Vector3.right, _stageInfo.Stages[_stageInfo.arrayIndex].bpm * 2 * Time.deltaTime);
                 Movement();
             }
         }
