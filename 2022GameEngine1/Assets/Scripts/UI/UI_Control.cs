@@ -45,8 +45,10 @@ public class UI_Control : MonoBehaviour
         }
         else // 그외의 시간에는 계속 참
         {
-            Item_gauge.fillAmount += Time.deltaTime * 0.1f;
-            
+            if (gManager.started == true)
+            {
+                Item_gauge.fillAmount += Time.deltaTime * 0.1f;
+            }
         }
         
         if (Item_gauge.fillAmount >= 1) // 가득 찼을 때 아이템활성화를 시키기 위한 코드
