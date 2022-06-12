@@ -11,7 +11,6 @@ public class StageSelect : MonoBehaviour
         public string name;
         public string soundName;
         public int level;
-        public int totalMeasure;
         public MeasureInfo[] timings;
     }
 

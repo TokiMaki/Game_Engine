@@ -414,7 +414,295 @@ MonoBehaviour:
     soundName: na
     level: 5
     totalMeasure: 0
-    timings: []
+    timings:
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 190
+      beat: 4
+      empty: 0
+    - bpm: 200
+      beat: 4
+      empty: 0
+    - bpm: 210
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 230
+      beat: 4
+      empty: 0
+    - bpm: 240
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 16
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
   arrayIndex: 0
 --- !u!4 &150297921
 Transform:
