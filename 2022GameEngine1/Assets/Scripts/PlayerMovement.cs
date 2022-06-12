@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class PlayerMovement : MonoBehaviour
 {
     private StageSelect _stageInfo = StageSelect.instance;
+    private GameManager _gameManager;
     public PlayerState _PlayerState;
     private Rigidbody _rigidbody;
     private PlayerControls _playerControls;
@@ -17,12 +18,18 @@ public class PlayerMovement : MonoBehaviour
     public bool _isGrounded { get; private set; }
 
     private float _jumpPower = 500;
+
+    private int _stageIndex;
+    
     // Start is called before the first frame update
     void Start()
     {
+        _gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
         _rigidbody = GetComponent<Rigidbody>();
         _playerControls = GetComponent<PlayerControls>();
         _PlayerState = GetComponent<PlayerState>();
+
+        _stageIndex = _stageInfo.arrayIndex;
     }
 
     // Update is called once per frame
@@ -32,11 +39,22 @@ public class PlayerMovement : MonoBehaviour
         {
             if (GameManager.GetInstance().started)
             {
+                int nowMeasure = _gameManager.nowMeasure;
+                float nowBPM = _stageInfo.Stages[_stageIndex].timings[nowMeasure].bpm;
+
                 transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
-                    10f * (_stageInfo.Stages[_stageInfo.arrayIndex].bpm / 60f) * Time.deltaTime);
-                transform.Rotate(Vector3.right, _stageInfo.Stages[_stageInfo.arrayIndex].bpm * 2 * Time.deltaTime);
+                    10f * (nowBPM / 60f) * Time.deltaTime);
+                transform.Rotate(Vector3.right, nowBPM * 2 * Time.deltaTime);
                 Movement();
             }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "Ground(Clone)")
+        {
+            _gameManager.PlusNowGround();
         }
     }
 

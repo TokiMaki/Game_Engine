@@ -11,7 +11,7 @@ public class Road
     public GameObject Pref;
     public List<Obstacle> _Obstacles = new List<Obstacle>();
 
-    public Road(int num, bool obstacleOn ,int length, int minInterval, int maxInterval, int beat)     // 길 길이, 최소 간격, 최대 간격
+    public Road(int num, bool isEmpty ,int length, int minInterval, int maxInterval, int beat)     // 길 길이, 최소 간격, 최대 간격
     {
         _Num = num;
         _Roadlength = length;
@@ -21,7 +21,7 @@ public class Road
             depth += 5;
         }
 
-        if (obstacleOn)
+        if (!isEmpty)
         {
             switch (beat)
             {

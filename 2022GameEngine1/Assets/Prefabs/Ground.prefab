@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6119484249954124908}
   - component: {fileID: 6783723470919908358}
   - component: {fileID: 5445133614638371197}
+  - component: {fileID: 8032888620550785118}
   m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
@@ -3152,11 +3153,24 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 19
+  m_VersionIndex: 22
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &8032888620550785118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7103709892633621210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13, y: 7.75, z: 10}
+  m_Center: {x: 0, y: 0, z: 5}
 --- !u!1001 &1246712340056795376
 PrefabInstance:
   m_ObjectHideFlags: 0
