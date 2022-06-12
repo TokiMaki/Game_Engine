@@ -39,6 +39,18 @@ public class Road
                     _Obstacles.Add(obstacle);
                     break;
                 }
+                case 16:
+                {
+                    Obstacle obstacle = new Obstacle(1000 * num);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num+250);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num+500);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num+750);
+                    _Obstacles.Add(obstacle);
+                    break;
+                }
             }
         }
     }
