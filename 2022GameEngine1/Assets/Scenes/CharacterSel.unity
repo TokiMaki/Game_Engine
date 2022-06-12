@@ -155,25 +155,1392 @@ MonoBehaviour:
   Stages:
   - name: V
     soundName: V
-    level: 3
-    bpm: 150
-    noteNum: 300
-    startNoteNum: 4
-    beat: 4
+    level: 6
+    timings:
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
+      empty: 1
   - name: "smooooch\u30FB\u2200\u30FB"
     soundName: smooooch
     level: 4
-    bpm: 177
-    noteNum: 316
-    startNoteNum: 8
-    beat: 4
+    timings:
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 1
   - name: "\u2200"
     soundName: turnA
+    level: 11
+    timings:
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 1
+  - name: n/a
+    soundName: na
+    level: 12
+    timings:
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 190
+      beat: 4
+      empty: 0
+    - bpm: 200
+      beat: 4
+      empty: 0
+    - bpm: 210
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 230
+      beat: 4
+      empty: 0
+    - bpm: 240
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 16
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
+  - name: snooze
+    soundName: snooze
     level: 5
-    bpm: 180
-    noteNum: 330
-    startNoteNum: 8
-    beat: 8
+    timings:
+    - bpm: 150
+      beat: 4
+      empty: 1
+    - bpm: 150
+      beat: 4
+      empty: 1
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 1
+    - bpm: 150
+      beat: 4
+      empty: 1
   arrayIndex: 0
 --- !u!4 &150297921
 Transform:

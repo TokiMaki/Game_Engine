@@ -11,10 +11,15 @@ public class StageSelect : MonoBehaviour
         public string name;
         public string soundName;
         public int level;
+        public MeasureInfo[] timings;
+    }
+
+    [Serializable]
+    public struct MeasureInfo
+    {
         public float bpm;
-        public int noteNum;
-        public int startNoteNum;
         public int beat;
+        public bool empty;
     }
 
     public static StageSelect instance;
