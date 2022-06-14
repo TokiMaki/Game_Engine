@@ -15,8 +15,10 @@ public class GameManager : MonoBehaviour
     public bool started = false;
     public int nowMeasure;
     public GameObject readyImage;
+    //public bool autoPlay;
     private bool _invincible = false;
     private int _nowGround = -1;
+    private int _nowCube = 0;
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -78,6 +80,21 @@ public class GameManager : MonoBehaviour
     {
         _nowGround++;
         nowMeasure = _nowGround / 4;
+    }
+    
+    public void PlusNowCube()
+    {
+        _nowCube++;
+    }
+
+    public int GetGroundIndex()
+    {
+        return _nowGround;
+    }
+    
+    public int GetNowCubeIndex()
+    {
+        return _nowCube;
     }
 
     private void GameStart()

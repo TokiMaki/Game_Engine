@@ -15,6 +15,8 @@ public class ObstacleTrigger : MonoBehaviour
             effect_obj.transform.SetParent(gameObject.transform);
             effect_obj.transform.position = gameObject.transform.position;
             effect_obj.transform.parent = null;
+            GameManager.GetInstance().PlusNowCube();
+            CubesforAuto.instance.cubes.RemoveAt(0);
             SoundManager.instance.PlayClap();
             Destroy(gameObject);
         }

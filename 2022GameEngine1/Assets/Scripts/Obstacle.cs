@@ -25,6 +25,7 @@ public class Obstacle
     private void init(float t)
     {
         _ObstacleKind = (ObstacleKind) Random.Range(0, (int) ObstacleKind.Count);
+        CubesforAuto.instance.AddCubeOnList((int)_ObstacleKind);
         time= t;
     }
 }
