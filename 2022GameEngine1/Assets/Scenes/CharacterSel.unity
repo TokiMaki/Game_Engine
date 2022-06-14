@@ -153,247 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Stages:
-  - name: V
-    soundName: V
-    level: 1
-    timings:
-    - bpm: 150
-      beat: 8
-      empty: 1
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 0
-    - bpm: 150
-      beat: 8
-      empty: 1
-    - bpm: 150
-      beat: 8
-      empty: 1
   - name: "smooooch\u30FB\u2200\u30FB"
     soundName: smooooch
     level: 0
@@ -649,6 +408,247 @@ MonoBehaviour:
       empty: 1
     - bpm: 177
       beat: 4
+      empty: 1
+  - name: V
+    soundName: V
+    level: 1
+    timings:
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
       empty: 1
   - name: "\u2200"
     soundName: turnA
@@ -911,6 +911,749 @@ MonoBehaviour:
       empty: 1
     - bpm: 180
       beat: 8
+      empty: 1
+  - name: "\u30D0\u30C3\u30C9\u30FB\u30B9\u30A4\u30FC\u30C4\u3001\u30D0\u30C3\u30C9\u30FB\u30C9\u30EA\u30FC\u30E0"
+    soundName: bad_sweets
+    level: 2
+    timings:
+    - bpm: 220
+      beat: 8
+      empty: 1
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 1
+  - name: MAYHEM
+    soundName: mayhem
+    level: 3
+    timings:
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
       empty: 1
   - name: n/a
     soundName: na
@@ -1204,341 +1947,13 @@ MonoBehaviour:
     - bpm: 255
       beat: 4
       empty: 1
-  - name: snooze
-    soundName: snooze
-    level: 1
-    timings:
-    - bpm: 150
+    - bpm: 255
       beat: 4
       empty: 1
-    - bpm: 150
+    - bpm: 255
       beat: 4
       empty: 1
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 0
-    - bpm: 150
-      beat: 4
-      empty: 1
-    - bpm: 150
+    - bpm: 255
       beat: 4
       empty: 1
   arrayIndex: 0
@@ -1775,6 +2190,79 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   m_IsOn: 0
+--- !u!1 &385481891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385481893}
+  - component: {fileID: 385481892}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &385481892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385481891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1455839b13953124fb0a7b96a3c64901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BGM: {fileID: 573147095}
+  fx: {fileID: 1834773400}
+  btnClick: {fileID: 8300000, guid: 8503cecbe0509db499d916407a5d29dd, type: 3}
+  clap: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
+  BGMList:
+  - name: title
+    audio: {fileID: 8300000, guid: c309e4714c506b94f8c844cd64b40a1c, type: 3}
+  - name: gamestart
+    audio: {fileID: 8300000, guid: 7a2a563f487e9614996bb5066ac946e0, type: 3}
+  - name: gameloop
+    audio: {fileID: 8300000, guid: 0406fbe910b7ad54c81b22970d21d5e2, type: 3}
+  - name: fever
+    audio: {fileID: 8300000, guid: 359b389153340ae4ab2b307e2034fe07, type: 3}
+  - name: result
+    audio: {fileID: 8300000, guid: ac833cc139364b748ab48a04abd1e6f7, type: 3}
+  - name: V
+    audio: {fileID: 8300000, guid: cb33058190032db4c806d4d4f6a4b062, type: 3}
+  - name: smooooch
+    audio: {fileID: 8300000, guid: df62bb88360601d4392f56ea0c8701a7, type: 3}
+  - name: turnA
+    audio: {fileID: 8300000, guid: 4ca544d922bc98b428efeac23795c111, type: 3}
+  - name: na
+    audio: {fileID: 8300000, guid: 50745dc549a07a64b9babe7339f0f069, type: 3}
+  - name: bad_sweets
+    audio: {fileID: 8300000, guid: bd1ca38c4ec1efd429c01f714a3f0212, type: 3}
+  - name: mayhem
+    audio: {fileID: 8300000, guid: d0562fa34a4262642a1cd7e436ff9149, type: 3}
+--- !u!4 &385481893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385481891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 784.04224, y: 357.78424, z: -190.03229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1834773401}
+  - {fileID: 573147096}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410435008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,6 +2329,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &573147094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 573147096}
+  - component: {fileID: 573147095}
+  m_Layer: 0
+  m_Name: BGM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &573147095
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573147094}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c309e4714c506b94f8c844cd64b40a1c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &573147096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573147094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385481893}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &806284753
 GameObject:
@@ -2936,11 +3552,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Sprites:
-  - {fileID: 21300000, guid: 428283461bffa8d4c91bc8cf7c3f46a6, type: 3}
   - {fileID: 21300000, guid: d31cb9e60faa73644a099b0a21b8d4e0, type: 3}
+  - {fileID: 21300000, guid: 428283461bffa8d4c91bc8cf7c3f46a6, type: 3}
   - {fileID: 21300000, guid: 34c86cc4413d9a54ea7dabd96010bf1c, type: 3}
+  - {fileID: 21300000, guid: 070949e787d707f439dba21b8d0b2566, type: 3}
+  - {fileID: 21300000, guid: c2e730540deb9724f83c504c4eb9d09a, type: 3}
   - {fileID: 21300000, guid: 50cf34de97ba9eb4a8574b02e7bd38d5, type: 3}
-  - {fileID: 21300000, guid: 82268f1d7e2b3cf4f9533c3d2a24fe5d, type: 3}
 --- !u!114 &1662507494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3176,6 +3793,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830586694}
   m_CullTransparentMesh: 1
+--- !u!1 &1834773399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834773401}
+  - component: {fileID: 1834773400}
+  m_Layer: 0
+  m_Name: fx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1834773400
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834773399}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1834773401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834773399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385481893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994468405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3234,7 +3979,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: SongName
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
   m_sharedMaterial: {fileID: -1878372408307065829, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
