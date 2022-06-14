@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StageSelect : MonoBehaviour
 {
@@ -29,6 +30,8 @@ public class StageSelect : MonoBehaviour
     public GameObject songImage;
     public GameObject songName;
     public GameObject songLevel;
+
+    public bool autoPlay;
     
     private void Awake()
     {
@@ -89,6 +92,11 @@ public class StageSelect : MonoBehaviour
                 songLevel.GetComponent<TMP_Text>().fontStyle = FontStyles.Bold | FontStyles.Italic;
                 break;
         }
+    }
+
+    public void ToggleAutoPlay(Toggle val)
+    {
+        autoPlay = val.isOn;
     }
     
     public Stage GetStageInfo()

@@ -15,8 +15,10 @@ public class GameManager : MonoBehaviour
     public bool started = false;
     public int nowMeasure;
     public GameObject readyImage;
+    //public bool autoPlay;
     private bool _invincible = false;
     private int _nowGround = -1;
+    private int _nowCube = 0;
     public static GameManager GetInstance()
     {
         if(instance == null)
@@ -57,7 +59,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerstates.health <= 0)
+        print(nowMeasure);
+        if (playerstates.health <= -9000)
         {
             playerstates.Die();
         }
@@ -78,6 +81,21 @@ public class GameManager : MonoBehaviour
     {
         _nowGround++;
         nowMeasure = _nowGround / 4;
+    }
+    
+    public void PlusNowCube()
+    {
+        _nowCube++;
+    }
+
+    public int GetGroundIndex()
+    {
+        return _nowGround;
+    }
+    
+    public int GetNowCubeIndex()
+    {
+        return _nowCube;
     }
 
     private void GameStart()

@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera _camera;
     public LayerMask interacableLayer;
     public Vector3 moveDir;
+    private bool _autoPlay;
     public bool _isGrounded { get; private set; }
 
     private float _jumpPower = 500;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _playerControls = GetComponent<PlayerControls>();
         _PlayerState = GetComponent<PlayerState>();
+        _autoPlay = _stageInfo.autoPlay;
 
         _stageIndex = _stageInfo.arrayIndex;
     }
@@ -45,7 +47,14 @@ public class PlayerMovement : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
                     10f * (nowBPM / 60f) * Time.deltaTime);
                 transform.Rotate(Vector3.right, nowBPM * 2 * Time.deltaTime);
-                Movement();
+                if (_autoPlay)
+                {
+                    AutoPlay();
+                }
+                else
+                {
+                    Movement();
+                }
             }
         }
     }
@@ -64,6 +73,32 @@ public class PlayerMovement : MonoBehaviour
         //_rigidbody.AddForce(0, 0, 500f * Time.deltaTime);
     }
 
+    void AutoPlay()
+    {
+        if (CubesforAuto.instance.cubes.Count == 0) return;
+        var kind = CubesforAuto.instance.cubes[0];
+
+        switch (kind)
+        {
+            case (int)Obstacle.ObstacleKind.Cube1:
+            transform.position = new Vector3(-4.0f, transform.position.y, transform.position.z);
+            break;
+            
+            case (int)Obstacle.ObstacleKind.Cube2:
+            transform.position = new Vector3(-2.0f, transform.position.y, transform.position.z);
+            break;
+            
+            case (int)Obstacle.ObstacleKind.Cube3:
+            transform.position = new Vector3(2.0f, transform.position.y, transform.position.z);
+            break;
+            
+            case (int)Obstacle.ObstacleKind.Cube4:
+            transform.position = new Vector3(4.0f, transform.position.y, transform.position.z);
+            break;
+        }
+       
+    }
+    
     void Movement()
     {
         if (_playerControls.Move.magnitude >= 0.1f)
