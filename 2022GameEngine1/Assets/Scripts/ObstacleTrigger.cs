@@ -15,6 +15,7 @@ public class ObstacleTrigger : MonoBehaviour
             effect_obj.transform.SetParent(gameObject.transform);
             effect_obj.transform.position = gameObject.transform.position;
             effect_obj.transform.parent = null;
+            SoundManager.instance.PlayClap();
             Destroy(gameObject);
         }
     }
