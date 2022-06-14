@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera _camera;
     public LayerMask interacableLayer;
     public Vector3 moveDir;
-    public bool autoPlay;
+    private bool _autoPlay;
     public bool _isGrounded { get; private set; }
 
     private float _jumpPower = 500;
@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _playerControls = GetComponent<PlayerControls>();
         _PlayerState = GetComponent<PlayerState>();
+        _autoPlay = _stageInfo.autoPlay;
 
         _stageIndex = _stageInfo.arrayIndex;
     }
@@ -46,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0, 0, 10),
                     10f * (nowBPM / 60f) * Time.deltaTime);
                 transform.Rotate(Vector3.right, nowBPM * 2 * Time.deltaTime);
-                if (autoPlay)
+                if (_autoPlay)
                 {
                     AutoPlay();
                 }
