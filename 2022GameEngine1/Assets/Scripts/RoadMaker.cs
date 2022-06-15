@@ -15,18 +15,16 @@ public class RoadMaker : MonoBehaviour
     
     private StageSelect _stageInfo = StageSelect.instance;
 
-    private int _beat;
-    private int _noteNum;
-    private int _startNoteNum;
-    
+    private int _stageIndex;
+    private int _totalMeasure;
+
     // Start is called before the first frame update
     void Awake()
     {
-        _beat = _stageInfo.Stages[_stageInfo.arrayIndex].beat;
-        _noteNum= _stageInfo.Stages[_stageInfo.arrayIndex].noteNum;
-        _startNoteNum= _stageInfo.Stages[_stageInfo.arrayIndex].startNoteNum;
+        _stageIndex = _stageInfo.arrayIndex;
+        _totalMeasure = _stageInfo.Stages[_stageIndex].timings.Length;
         
-        init(_noteNum+_startNoteNum);
+        init(_totalMeasure);
         Install();
         print("이상무");
     }
@@ -41,14 +39,16 @@ public class RoadMaker : MonoBehaviour
     {
         for (int i = 0; i < num; ++i)
         {
-            int length = Random.Range(_MinRoadlength, _MaxRoadlength);
-            Road road;
-
-            if (_startNoteNum > i)
-                road = new Road(i, false, length, _MinObstacleInterval, _MaxObstacleInterval, _beat);
-            else
-                road = new Road(i, true, length, _MinObstacleInterval, _MaxObstacleInterval, _beat);
-            _Roads.Add(road);
+            for (int j = 0; j < 4; ++j)
+            {
+                int length = Random.Range(_MinRoadlength, _MaxRoadlength);
+                bool isEmpty = _stageInfo.Stages[_stageIndex].timings[i].empty;
+                
+                Road road;
+                road = new Road(i * 4 + j, isEmpty, length, _MinObstacleInterval, _MaxObstacleInterval,
+                    _stageInfo.Stages[_stageIndex].timings[i].beat);
+                _Roads.Add(road);
+            }
         }
     }
     

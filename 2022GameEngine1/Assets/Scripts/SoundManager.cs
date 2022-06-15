@@ -9,6 +9,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource BGM;
     public AudioSource fx;
     public AudioClip btnClick;
+    public AudioClip clap;
 
     public static SoundManager instance;
 
@@ -70,5 +71,10 @@ public class SoundManager : MonoBehaviour
     public void PlayBtnClick()
     {
         fx.PlayOneShot(btnClick);
+    }
+    
+    public void PlayClap()
+    {
+        fx.PlayOneShot(clap);
     }
 }

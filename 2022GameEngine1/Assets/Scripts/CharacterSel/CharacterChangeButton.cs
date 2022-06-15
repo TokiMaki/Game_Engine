@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterChangeButton : MonoBehaviour
 {
     public GameObject StageInfo;
-    
+
     // true is left button
     // else right button
     public void OnClick(bool isLeft)

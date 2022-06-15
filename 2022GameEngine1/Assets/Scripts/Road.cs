@@ -10,8 +10,9 @@ public class Road
     public int _Roadlength;
     public GameObject Pref;
     public List<Obstacle> _Obstacles = new List<Obstacle>();
+    private int _offset = 200;
 
-    public Road(int num, bool obstacleOn ,int length, int minInterval, int maxInterval, int beat)     // 길 길이, 최소 간격, 최대 간격
+    public Road(int num, bool isEmpty ,int length, int minInterval, int maxInterval, int beat)     // 길 길이, 최소 간격, 최대 간격
     {
         _Num = num;
         _Roadlength = length;
@@ -21,21 +22,33 @@ public class Road
             depth += 5;
         }
 
-        if (obstacleOn)
+        if (!isEmpty)
         {
             switch (beat)
             {
                 case 4:
                 {
-                    Obstacle obstacle = new Obstacle(1000 * num);
+                    Obstacle obstacle = new Obstacle(1000 * num + _offset);
                     _Obstacles.Add(obstacle);
                     break;
                 }
                 case 8:
                 {
-                    Obstacle obstacle = new Obstacle(1000 * num);
+                    Obstacle obstacle = new Obstacle(1000 * num + _offset);
                     _Obstacles.Add(obstacle);
-                    obstacle = new Obstacle(1000 * num+500);
+                    obstacle = new Obstacle(1000 * num + 500 + _offset);
+                    _Obstacles.Add(obstacle);
+                    break;
+                }
+                case 16:
+                {
+                    Obstacle obstacle = new Obstacle(1000 * num + _offset);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num + 250 + _offset);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num + 500 + _offset);
+                    _Obstacles.Add(obstacle);
+                    obstacle = new Obstacle(1000 * num + 750 + _offset);
                     _Obstacles.Add(obstacle);
                     break;
                 }
