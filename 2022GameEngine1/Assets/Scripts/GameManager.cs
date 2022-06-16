@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         print(nowMeasure);
         if (playerstates != null)
         {
-            if (playerstates.health <= -9000 || nowMeasure > _stageInfo.Stages[_stageInfo.arrayIndex].timings.Length)
+            if (playerstates.health <= -9000 || nowMeasure > _stageInfo.Stages[_stageInfo.arrayIndex].timings.Length-2)
             {
                 playerstates.Die();
             }
