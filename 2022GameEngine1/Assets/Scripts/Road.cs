@@ -10,7 +10,7 @@ public class Road
     public int _Roadlength;
     public GameObject Pref;
     public List<Obstacle> _Obstacles = new List<Obstacle>();
-    private int _offset = 200;
+    private int _offset = 250;
 
     public Road(int num, bool isEmpty ,int length, int minInterval, int maxInterval, int beat)     // 길 길이, 최소 간격, 최대 간격
     {
