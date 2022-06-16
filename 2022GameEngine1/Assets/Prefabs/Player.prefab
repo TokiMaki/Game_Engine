@@ -46,7 +46,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3280381053061280019}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4711208715938537054, guid: de8aec6d247d0774c90ce85b319c1d22, type: 3}
 --- !u!23 &3280381053061280016
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -67,7 +67,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 68f61f31e6dd5ea4998445bfda9f0ca1, type: 2}
+  - {fileID: 2100000, guid: fd401ed85e637c149b6fd2db66a6b41d, type: 2}
+  - {fileID: 2100000, guid: b5987bae000e8ec4ab232eab7f8e8cf4, type: 2}
+  - {fileID: 2100000, guid: b5987bae000e8ec4ab232eab7f8e8cf4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -116,7 +118,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!114 &3280381053061280029
 MonoBehaviour:
@@ -172,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a227c251a8d59cd4a8a74230e6207289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _PlayerState: {fileID: 0}
   _camera: {fileID: 0}
   interacableLayer:
     serializedVersion: 2

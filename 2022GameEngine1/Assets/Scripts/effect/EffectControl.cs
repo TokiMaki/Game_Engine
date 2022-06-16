@@ -16,7 +16,10 @@ public class EffectControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (particles[0].isPlaying == false)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void play_effects()
