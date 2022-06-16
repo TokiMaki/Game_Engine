@@ -73,7 +73,7 @@ public class Item_Manager : MonoBehaviour
                 debuff01();
                 break;
             case 3:
-                
+                Hind();
                 break;
             // case 3:
             //     Blind();
@@ -101,4 +101,8 @@ public class Item_Manager : MonoBehaviour
     //     Color color = blind.color;
     //     color.a = 255;
     // }
+    public void Hind()
+    {
+        gManager.Item_time = 0.1f;
+    }
 }

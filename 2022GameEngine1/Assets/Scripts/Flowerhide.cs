@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
-public class ObstacleHide : MonoBehaviour
+public class Flowerhide : MonoBehaviour
 {
     public MeshRenderer[] _MeshRenderers;
     public List<Material> _Materials;
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -39,20 +38,7 @@ public class ObstacleHide : MonoBehaviour
                 {
                     if (_material)
                     {
-                        float Opacity;
-                        Opacity = _material.GetFloat("_Opacity");
-                        
-                        if (Opacity >= 0.0)
-                        {
-                            Opacity -= 5f * Time.deltaTime;
-                            _material.SetFloat("_Opacity", Opacity);
-                        }
-                        else if (Opacity < 0.0f)
-                        {
-                            Opacity = 0.0f;
-                            _material.SetFloat("_Opacity", Opacity);
-                        }
-                        //_material.DOFade(0, 0.2f);
+                        _material.DOFade(0, 0.2f);
                     }
                 }
             }

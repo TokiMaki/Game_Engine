@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 3388804557906909498}
   - component: {fileID: 7457408846238118333}
   - component: {fileID: 7256829297617117177}
+  - component: {fileID: 7646452760021890430}
   m_Layer: 6
   m_Name: flower2
   m_TagString: Untagged
@@ -180,6 +181,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effect_con: {fileID: 8022832438632908100, guid: 3ef08d1bba265244da91045b170fdf3e, type: 3}
   effect_obj: {fileID: 0}
+--- !u!114 &7646452760021890430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3985492813079717879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ba45c0bccb9e94f9fc38084aa8081d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _MeshRenderers: []
+  _Materials: []
 --- !u!1 &5360024029731109088
 GameObject:
   m_ObjectHideFlags: 0
