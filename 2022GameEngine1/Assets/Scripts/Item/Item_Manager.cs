@@ -40,9 +40,7 @@ public class Item_Manager : MonoBehaviour
     {
         gManager = GameManager.GetInstance();
         once_call = true;
-        Color color = blind.color;
-        color.a = 0;
-        blind.color = color;
+        blind = GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -57,15 +55,12 @@ public class Item_Manager : MonoBehaviour
         if (gManager.Item_Event == false && once_call == false)
         {
             once_call = true;
-            Color color = blind.color;
-            color.a = 0;
-            blind.color = color;
         }
     }
 
     public void choice_Item()
     {
-        item_num = Random.Range(0,3);
+        item_num = Random.Range(0,4);
         switch (item_num)
         {
             case 0:
@@ -78,10 +73,10 @@ public class Item_Manager : MonoBehaviour
                 debuff01();
                 break;
             case 3:
-                Blind();
+                Hind();
                 break;
             // case 3:
-            //     
+            //     Blind();
             //     break;
         }
     }
@@ -100,11 +95,14 @@ public class Item_Manager : MonoBehaviour
     {
         gManager.Item_time = 0.1f;
     }
-    public void Blind()
-     {
-         gManager.Item_time = 0.2f;
-         Color color = blind.color;
-        color.a = 110;
-        blind.color = color;
-     }
+    // public void Blind()
+    // {
+    //     gManager.Item_time = 0.2f;
+    //     Color color = blind.color;
+    //     color.a = 255;
+    // }
+    public void Hind()
+    {
+        gManager.Item_time = 0.1f;
+    }
 }
