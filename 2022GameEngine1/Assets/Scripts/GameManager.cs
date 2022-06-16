@@ -52,8 +52,12 @@ public class GameManager : MonoBehaviour
         Score = 0;
         Item_time = 0.1f;
         nowMeasure = 0;
+        Pplayer = GameObject.FindWithTag("Player");
         Invoke("GameStart",5f);
-        playerstates = Pplayer.GetComponent<PlayerState>();
+        if (Pplayer != null)
+        {
+            playerstates = Pplayer.GetComponent<PlayerState>();
+        }
     }
 
     // Update is called once per frame
