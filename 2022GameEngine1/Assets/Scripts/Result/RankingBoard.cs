@@ -42,7 +42,7 @@ public class RankingBoard : MonoBehaviour
 
     private void Start()
     {
-        _dataPath = Application.persistentDataPath + "/" + "test";
+        _dataPath = Application.persistentDataPath + "/" + StageSelect.instance.GetStageInfo().name;
         LoadRecord(_dataPath);
     }
 
@@ -50,5 +50,17 @@ public class RankingBoard : MonoBehaviour
     public int GetScore()
     {
         return _record;
+    }
+
+    public void CompareScore(int newScore, int prevScore)
+    {
+        if (newScore > prevScore)
+        {
+            _record = newScore;
+            scoreText.GetComponent<ScoreObject>().SetText(_record);
+            newRecordImage.GetComponent<NewRecordObject>().SetText(newScore - prevScore);
+            newRecordImage.SetActive(true);
+            WriteRecord(_dataPath, newScore);
+        }
     }
 }
