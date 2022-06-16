@@ -28,6 +28,6 @@ public class Follow_Effect : MonoBehaviour
         }
 
         gameObject.transform.position = new Vector3(0, 0, Player.transform.position.z);
-        print(Player.transform.position.z);
+        //print(Player.transform.position.z);
     }
 }
