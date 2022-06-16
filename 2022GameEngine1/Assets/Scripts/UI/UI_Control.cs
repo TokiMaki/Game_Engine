@@ -48,6 +48,8 @@ public class UI_Control : MonoBehaviour
             if (gManager.started == true)
             {
                 Item_gauge.fillAmount += Time.deltaTime * 0.1f;
+                if (Input.GetKeyDown(KeyCode.Tab))
+                    Item_gauge.fillAmount = 1;
             }
         }
         
