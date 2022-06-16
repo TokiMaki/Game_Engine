@@ -4,11 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using Unity.VisualScripting;
 
 public class RankingBoard : MonoBehaviour
 {
     private int _record = 0;
     private static string _dataPath;
+
+    public GameObject scoreText;
+    public GameObject newRecordImage;
 
     // 점수 불러오기
     private void LoadRecord(string path)
@@ -25,7 +29,7 @@ public class RankingBoard : MonoBehaviour
         }
 
         sr.Close();
-        Debug.Log(_record);
+        scoreText.GetComponent<ScoreObject>().SetText(_record);
     }
 
     // 점수 파일에 기록
