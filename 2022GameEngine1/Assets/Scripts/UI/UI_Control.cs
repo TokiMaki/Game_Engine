@@ -6,6 +6,7 @@ using TMPro;
 public class UI_Control : MonoBehaviour
 {
     public GameManager gManager;
+    public Item_Manager IManager;
 
     public Image MainImage;
 
@@ -18,6 +19,7 @@ public class UI_Control : MonoBehaviour
     void Start()
     {
         gManager = GameManager.GetInstance();
+        IManager = Item_Manager.GetInstance();
         Item_gauge.fillAmount = 0f;
     }
 
