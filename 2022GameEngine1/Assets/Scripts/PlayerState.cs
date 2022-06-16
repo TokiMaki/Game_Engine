@@ -54,7 +54,6 @@ public class PlayerState : MonoBehaviour
         print("불림");
         if (max_health > health)
         {
-            
             health += 1;
         }
     }
