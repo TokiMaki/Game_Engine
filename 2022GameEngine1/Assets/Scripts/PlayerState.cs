@@ -39,6 +39,7 @@ public class PlayerState : MonoBehaviour
 
     public void LoadResultScene()
     {
+        SoundManager.instance.PlayBGM("title");
         SceneManager.LoadScene("Result");
     }
 

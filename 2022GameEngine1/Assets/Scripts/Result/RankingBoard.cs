@@ -43,7 +43,7 @@ public class RankingBoard : MonoBehaviour
 
     private void Start()
     {
-        _dataPath = Application.persistentDataPath + "/" + StageSelect.instance.GetStageInfo().name;
+        _dataPath = Application.persistentDataPath + "/" + StageSelect.instance.GetStageInfo().soundName;
         LoadRecord(_dataPath);
         CompareScore(GameManager.GetInstance().Score);
     }

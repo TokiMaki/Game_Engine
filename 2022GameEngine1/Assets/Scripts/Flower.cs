@@ -13,6 +13,6 @@ public class Flower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(transform.up,60*Time.deltaTime);
+        transform.Rotate(transform.up,125*Time.deltaTime);
     }
 }
