@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Block_Mat
+  m_Name: Rock
   m_Shader: {fileID: -6465566751694194690, guid: d9802f212ea337f408e16de42aa8ee7e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
@@ -33,11 +33,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AmibientTex:
-        m_Texture: {fileID: 2800000, guid: 5569b8ffc18bef04eab3b873ec32993b, type: 3}
+        m_Texture: {fileID: 2800000, guid: a45756eab1d8f834f8718a26b8f1bc22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ColorTex:
-        m_Texture: {fileID: 2800000, guid: 840fea1ac6f509a4c9ad0639a5edb67d, type: 3}
+        m_Texture: {fileID: 2800000, guid: be205c39ee771c9458e7c81ce5f560be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
@@ -59,9 +59,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _DirtySize: 1
-    - _Opacity: 2.1
+    - _Opacity: 0.7780754
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _MainColor: {r: 4, g: 4, b: 4, a: 0}
+    - _MainColor: {r: 2, g: 2, b: 2, a: 0}
   m_BuildTextureStacks: []
