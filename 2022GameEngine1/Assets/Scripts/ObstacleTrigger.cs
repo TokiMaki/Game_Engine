@@ -18,6 +18,7 @@ public class ObstacleTrigger : MonoBehaviour
             GameManager.GetInstance().PlusNowCube();
             CubesforAuto.instance.cubes.RemoveAt(0);
             SoundManager.instance.PlayClap();
+            GameManager.GetInstance().Score += 1;
             Destroy(gameObject);
         }
     }

@@ -103,6 +103,7 @@ public class GameManager : MonoBehaviour
         readyImage.SetActive(false);
         SoundManager.instance.PlayBGM(_stageInfo.Stages[_stageInfo.arrayIndex].soundName);
         Pplayer.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionX|RigidbodyConstraints.FreezePositionY;
+        Score = 0;
         started = true;
     }
 }
