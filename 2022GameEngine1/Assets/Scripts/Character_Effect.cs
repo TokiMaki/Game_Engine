@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.VFX;
 public class Character_Effect : MonoBehaviour
 {
     //public List<GameObject> effect_obj;
@@ -36,7 +36,7 @@ public class Character_Effect : MonoBehaviour
             active_particle.Stop();
             once = true;
         }
-        RealObj.transform.position = gameObject.transform.position;
+        RealObj.transform.position = gameObject.transform.position + new Vector3(0,-0.5f,0);
         print(RealObj.transform.position);
     }
 }

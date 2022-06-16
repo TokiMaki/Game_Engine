@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 3280381053061280028}
   - component: {fileID: 3280381053061280027}
   - component: {fileID: 3096506880939905179}
-  - component: {fileID: 1781673474919994061}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -194,20 +193,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _respawnVector: {x: 0, y: 0, z: 0}
---- !u!114 &1781673474919994061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3280381053061280019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307bd9c880862ce498daf5ee3aab0ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  originobjs: {fileID: 1190269602474815113, guid: be9d61b143530114888254994d83a139, type: 3}
-  RealObj: {fileID: 0}
-  particles: []
-  active_particle: {fileID: 0}
-  gmanager: {fileID: 0}
