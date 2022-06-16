@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     private StageSelect _stageInfo = StageSelect.instance;
     public PlayerState playerstates;
     public GameObject Pplayer;
-    public float Score;
+    public int Score;
     public bool Item_Event;
     public float Item_time; //아이템이 실행되는 동안에 게이지가 줄어드는 속도
     public bool started = false;
@@ -31,11 +31,11 @@ public class GameManager : MonoBehaviour
             }
         }
         return instance;
-        
     }
 
     private void Awake()
     {
+        DontDestroyOnLoad(this);
         if(instance == null)
         {
             instance = this;
@@ -60,9 +60,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         print(nowMeasure);
-        if (playerstates.health <= -9000)
+        if (playerstates != null)
         {
-            playerstates.Die();
+            if (playerstates.health <= -9000 || nowMeasure > _stageInfo.Stages[_stageInfo.arrayIndex].timings.Length)
+            {
+                playerstates.Die();
+            }
         }
     }
 

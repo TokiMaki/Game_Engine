@@ -393,7 +393,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274743854}
-  m_LocalRotation: {x: 0.34042525, y: 0.000000022880096, z: -0.000000008283737, w: 0.9402717}
+  m_LocalRotation: {x: 0.16018224, y: 0.0000000147087516, z: -0.0000000023869016, w: 0.9870875}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -476,7 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 1, z: -3}
   m_XDamping: 1
   m_YDamping: 0
   m_ZDamping: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 1, z: -3}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_FollowOffset: {x: 0, y: 1, z: -3}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -950,7 +950,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772535542}
-  m_LocalRotation: {x: 0.32326588, y: -0.000000016282542, z: 0.0000000055622356, w: 0.9463082}
+  m_LocalRotation: {x: 0.14220114, y: 0.000000016798626, z: -0.0000000024133084, w: 0.9898378}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gManager: {fileID: 0}
-  blind: {fileID: 0}
+  blind: {fileID: 1159496767}
   item_num: 0
   once_call: 0
 --- !u!4 &840905277
@@ -1178,6 +1178,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Scoretext: {fileID: 0}
+--- !u!114 &1159496767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9109616223409930792, guid: a65da26a41ec85d49b0766fd08b2fe17, type: 3}
+  m_PrefabInstance: {fileID: 1159496764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1232001026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,11 +1300,11 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 4.5
+  - m_Height: 4
     m_Radius: 1.75
-  - m_Height: 2.5
+  - m_Height: 1
     m_Radius: 3
-  - m_Height: 0.4
+  - m_Height: 0
     m_Radius: 1.3
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
@@ -1308,7 +1319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232001026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.5, z: -3}
+  m_LocalPosition: {x: 0, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1678,7 +1689,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859816576}
-  m_LocalRotation: {x: 0.3060453, y: -0.000000023165901, z: 0.0000000074471513, w: 0.952017}
+  m_LocalRotation: {x: 0.124220625, y: 0.000000017916653, z: -0.0000000022429905, w: 0.9922547}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1832,14 +1843,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987610389}
-  m_LocalRotation: {x: 0.32326588, y: -0.000000016282936, z: 0.0000000055623426, w: 0.9463082}
-  m_LocalPosition: {x: 0.00000021956853, y: 10.595679, z: -9.380438}
+  m_LocalRotation: {x: 0.14220116, y: 0.000000017298369, z: -0.000000002341517, w: 0.98983777}
+  m_LocalPosition: {x: -0.00000030180695, y: 6.2140155, z: -11.891796}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.374, y: 0, z: 0}
 --- !u!114 &1987610393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,10 +1952,10 @@ MonoBehaviour:
   _MinObstacleInterval: 5
   _MaxObstacleInterval: 10
   ObstaclePrefs:
-  - {fileID: 276357858903991122, guid: 0e79f035250ed0242acbf1b5e0b3f3e5, type: 3}
+  - {fileID: 4892736940538508741, guid: f6297f7508c34cd4a908f7d258ead501, type: 3}
   - {fileID: 276357858903991122, guid: b7565f20c506662458598f1baa1c9125, type: 3}
   - {fileID: 276357858903991122, guid: b5665f15c2efe7346a60d436d6f8ae48, type: 3}
-  - {fileID: 276357858903991122, guid: f6d7a4c03c2a3fa4b8eec2a941fcd3f9, type: 3}
+  - {fileID: 3985492813079717879, guid: cdd96c3ed8bd0ed4990c42e0c424a3f3, type: 3}
   RoadPref: {fileID: 7103709892633621210, guid: fbfed6fa7454e2f4b9385c3256609e54, type: 3}
 --- !u!4 &2072557618
 Transform:
