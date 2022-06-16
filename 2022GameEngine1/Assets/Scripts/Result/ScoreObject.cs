@@ -6,6 +6,10 @@ using UnityEngine;
 
 public class ScoreObject : MonoBehaviour
 {
+    void Start()
+    {
+        
+    }
     public void SetText(int score)
     {
         string[] number = new string[4];

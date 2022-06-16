@@ -72,9 +72,9 @@ public class Item_Manager : MonoBehaviour
             case 2:
                 debuff01();
                 break;
-            case 3:
-                Blind();
-                break;
+            // case 3:
+            //     Blind();
+            //     break;
         }
     }
     public void add_Guard_Item()
@@ -92,10 +92,10 @@ public class Item_Manager : MonoBehaviour
     {
         gManager.Item_time = 0.1f;
     }
-    public void Blind()
-    {
-        gManager.Item_time = 0.2f;
-        Color color = blind.color;
-        color.a = 255;
-    }
+    // public void Blind()
+    // {
+    //     gManager.Item_time = 0.2f;
+    //     Color color = blind.color;
+    //     color.a = 255;
+    // }
 }

@@ -38,12 +38,14 @@ public class RankingBoard : MonoBehaviour
         FileStream fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write);
         StreamWriter sw = new StreamWriter(fs);
         sw.Write(score);
+        sw.Close();
     }
 
     private void Start()
     {
         _dataPath = Application.persistentDataPath + "/" + StageSelect.instance.GetStageInfo().name;
         LoadRecord(_dataPath);
+        CompareScore(GameManager.GetInstance().Score);
     }
 
     // 불러온 점수 불러오기
@@ -52,14 +54,14 @@ public class RankingBoard : MonoBehaviour
         return _record;
     }
 
-    public void CompareScore(int newScore, int prevScore)
+    public void CompareScore(int newScore)
     {
-        if (newScore > prevScore)
+        scoreText.GetComponent<ScoreObject>().SetText(newScore);
+        if (newScore > _record)
         {
-            _record = newScore;
-            scoreText.GetComponent<ScoreObject>().SetText(_record);
-            newRecordImage.GetComponent<NewRecordObject>().SetText(newScore - prevScore);
+            newRecordImage.GetComponent<NewRecordObject>().SetText(newScore - _record);
             newRecordImage.SetActive(true);
+            _record = newScore;
             WriteRecord(_dataPath, newScore);
         }
     }
