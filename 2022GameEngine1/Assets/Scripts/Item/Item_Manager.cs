@@ -72,6 +72,9 @@ public class Item_Manager : MonoBehaviour
             case 2:
                 debuff01();
                 break;
+            case 3:
+                
+                break;
             // case 3:
             //     Blind();
             //     break;
