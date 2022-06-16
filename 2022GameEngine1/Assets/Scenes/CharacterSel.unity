@@ -123,6 +123,1859 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &150297919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 150297921}
+  - component: {fileID: 150297920}
+  m_Layer: 0
+  m_Name: StageInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &150297920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150297919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f1f6bca1a9339478165e332a736101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stages:
+  - name: "smooooch\u30FB\u2200\u30FB"
+    soundName: smooooch
+    level: 0
+    timings:
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 8
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 0
+    - bpm: 177
+      beat: 4
+      empty: 1
+    - bpm: 177
+      beat: 4
+      empty: 1
+  - name: V
+    soundName: V
+    level: 1
+    timings:
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 4
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 0
+    - bpm: 150
+      beat: 8
+      empty: 1
+    - bpm: 150
+      beat: 8
+      empty: 1
+  - name: "\u2200"
+    soundName: turnA
+    level: 2
+    timings:
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 16
+      empty: 0
+    - bpm: 180
+      beat: 8
+      empty: 1
+    - bpm: 180
+      beat: 8
+      empty: 1
+  - name: "\u30D0\u30C3\u30C9\u30FB\u30B9\u30A4\u30FC\u30C4\u3001\u30D0\u30C3\u30C9\u30FB\u30C9\u30EA\u30FC\u30E0"
+    soundName: bad_sweets
+    level: 2
+    timings:
+    - bpm: 220
+      beat: 8
+      empty: 1
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 16
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 8
+      empty: 1
+  - name: MAYHEM
+    soundName: mayhem
+    level: 3
+    timings:
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 8
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 4
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 0
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+    - bpm: 249.5
+      beat: 16
+      empty: 1
+  - name: n/a
+    soundName: na
+    level: 3
+    timings:
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 4
+      empty: 1
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 16
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 85
+      beat: 8
+      empty: 0
+    - bpm: 170
+      beat: 4
+      empty: 0
+    - bpm: 180
+      beat: 4
+      empty: 0
+    - bpm: 190
+      beat: 4
+      empty: 0
+    - bpm: 200
+      beat: 4
+      empty: 0
+    - bpm: 210
+      beat: 4
+      empty: 0
+    - bpm: 220
+      beat: 4
+      empty: 0
+    - bpm: 230
+      beat: 4
+      empty: 0
+    - bpm: 240
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 0
+    - bpm: 255
+      beat: 8
+      empty: 0
+    - bpm: 255
+      beat: 16
+      empty: 0
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
+    - bpm: 255
+      beat: 4
+      empty: 1
+  arrayIndex: 0
+  songImage: {fileID: 1662507492}
+  songName: {fileID: 1994468405}
+  songLevel: {fileID: 811301389}
+  autoPlay: 0
+--- !u!4 &150297921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150297919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 759.6713, y: 314.45435, z: 16.892307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &196831323
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +2091,105 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &221564749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 221564750}
+  - component: {fileID: 221564751}
+  m_Layer: 5
+  m_Name: Toggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &221564750
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221564749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 996708691}
+  - {fileID: 845210407}
+  m_Father: {fileID: 1069784287}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -184.4, y: 43.25}
+  m_SizeDelta: {x: 296, y: 86.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &221564751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221564749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 996708692}
+  toggleTransition: 1
+  graphic: {fileID: 1830586696}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 150297920}
+        m_TargetAssemblyTypeName: StageSelect, Assembly-CSharp
+        m_MethodName: ToggleAutoPlay
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 221564751}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Toggle, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
 --- !u!1 &410435008
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +2403,222 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39f372a14cf02b47b45fb84ec939038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StageInfo: {fileID: 150297919}
+--- !u!1 &811301389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811301392}
+  - component: {fileID: 811301391}
+  - component: {fileID: 811301390}
+  m_Layer: 5
+  m_Name: SongLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &811301390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811301389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Level
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
+  m_sharedMaterial: {fileID: -1878372408307065829, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &811301391
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811301389}
+  m_CullTransparentMesh: 1
+--- !u!224 &811301392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811301389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1069784287}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 353.8, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &845210406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845210407}
+  - component: {fileID: 845210409}
+  - component: {fileID: 845210408}
+  m_Layer: 5
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &845210407
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845210406}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 221564750}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -101.5, y: 0}
+  m_SizeDelta: {x: 308, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &845210408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845210406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 51
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: AUTOPLAY
+--- !u!222 &845210409
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845210406}
+  m_CullTransparentMesh: 1
 --- !u!1001 &916256991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -525,7 +2693,7 @@ GameObject:
   - component: {fileID: 948585381}
   - component: {fileID: 948585380}
   m_Layer: 5
-  m_Name: Image
+  m_Name: title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,7 +2717,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -91.5}
-  m_SizeDelta: {x: 725, y: 100}
+  m_SizeDelta: {x: 725, y: 158.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &948585380
 MonoBehaviour:
@@ -571,7 +2739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1711037373, guid: eb2cf3a950524564788cd57ad1d04e52, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4baa9c173b597cd4286b8e4b80a4dac6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -588,6 +2756,83 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948585378}
+  m_CullTransparentMesh: 1
+--- !u!1 &996708690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 996708691}
+  - component: {fileID: 996708693}
+  - component: {fileID: 996708692}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &996708691
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996708690}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1830586695}
+  m_Father: {fileID: 221564750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 37.5, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &996708692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996708690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &996708693
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996708690}
   m_CullTransparentMesh: 1
 --- !u!1 &1069784283
 GameObject:
@@ -665,7 +2910,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -685,6 +2930,10 @@ RectTransform:
   - {fileID: 1188905492}
   - {fileID: 806284754}
   - {fileID: 948585379}
+  - {fileID: 1662507496}
+  - {fileID: 1994468406}
+  - {fileID: 811301392}
+  - {fileID: 221564750}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -839,6 +3088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39f372a14cf02b47b45fb84ec939038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StageInfo: {fileID: 150297919}
 --- !u!1 &1250487423
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,7 +3210,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -250.49}
+  m_AnchoredPosition: {x: 0, y: -265}
   m_SizeDelta: {x: 2000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637325787
@@ -1069,6 +3319,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb58645841b28d440bc57da3b0248652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1662507492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662507496}
+  - component: {fileID: 1662507495}
+  - component: {fileID: 1662507494}
+  - component: {fileID: 1662507493}
+  m_Layer: 5
+  m_Name: songimage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1662507493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662507492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c7abef868f66042a1928ca5cf5da84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: d31cb9e60faa73644a099b0a21b8d4e0, type: 3}
+  - {fileID: 21300000, guid: 428283461bffa8d4c91bc8cf7c3f46a6, type: 3}
+  - {fileID: 21300000, guid: 34c86cc4413d9a54ea7dabd96010bf1c, type: 3}
+  - {fileID: 21300000, guid: 070949e787d707f439dba21b8d0b2566, type: 3}
+  - {fileID: 21300000, guid: c2e730540deb9724f83c504c4eb9d09a, type: 3}
+  - {fileID: 21300000, guid: 50cf34de97ba9eb4a8574b02e7bd38d5, type: 3}
+--- !u!114 &1662507494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662507492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 428283461bffa8d4c91bc8cf7c3f46a6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1662507495
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662507492}
+  m_CullTransparentMesh: 1
+--- !u!224 &1662507496
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662507492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.37, y: 3.37, z: 3.37}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1069784287}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1706254793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,3 +3516,214 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1830586694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830586695}
+  - component: {fileID: 1830586697}
+  - component: {fileID: 1830586696}
+  m_Layer: 5
+  m_Name: Checkmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1830586695
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830586694}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 996708691}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 50, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1830586696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830586694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1830586697
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830586694}
+  m_CullTransparentMesh: 1
+--- !u!1 &1994468405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994468406}
+  - component: {fileID: 1994468408}
+  - component: {fileID: 1994468407}
+  m_Layer: 5
+  m_Name: SongName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1994468406
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994468405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1069784287}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -334.6, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1994468407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994468405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: SongName
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
+  m_sharedMaterial: {fileID: -1878372408307065829, guid: 4e9a342b2eab50e4a9604da75aef91a2, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1994468408
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994468405}
+  m_CullTransparentMesh: 1

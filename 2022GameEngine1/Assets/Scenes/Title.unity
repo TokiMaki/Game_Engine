@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 499070949}
   - component: {fileID: 499070948}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SoundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,6 +301,7 @@ MonoBehaviour:
   BGM: {fileID: 2147132365}
   fx: {fileID: 2104616628}
   btnClick: {fileID: 8300000, guid: 8503cecbe0509db499d916407a5d29dd, type: 3}
+  clap: {fileID: 8300000, guid: b43d102aac6b145468dcaa94a5cccae1, type: 3}
   BGMList:
   - name: title
     audio: {fileID: 8300000, guid: c309e4714c506b94f8c844cd64b40a1c, type: 3}
@@ -312,8 +313,18 @@ MonoBehaviour:
     audio: {fileID: 8300000, guid: 359b389153340ae4ab2b307e2034fe07, type: 3}
   - name: result
     audio: {fileID: 8300000, guid: ac833cc139364b748ab48a04abd1e6f7, type: 3}
-  - name: game1
+  - name: V
     audio: {fileID: 8300000, guid: cb33058190032db4c806d4d4f6a4b062, type: 3}
+  - name: smooooch
+    audio: {fileID: 8300000, guid: df62bb88360601d4392f56ea0c8701a7, type: 3}
+  - name: turnA
+    audio: {fileID: 8300000, guid: 4ca544d922bc98b428efeac23795c111, type: 3}
+  - name: na
+    audio: {fileID: 8300000, guid: 50745dc549a07a64b9babe7339f0f069, type: 3}
+  - name: bad_sweets
+    audio: {fileID: 8300000, guid: bd1ca38c4ec1efd429c01f714a3f0212, type: 3}
+  - name: mayhem
+    audio: {fileID: 8300000, guid: d0562fa34a4262642a1cd7e436ff9149, type: 3}
 --- !u!4 &499070949
 Transform:
   m_ObjectHideFlags: 0

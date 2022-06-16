@@ -70,4 +70,9 @@ public class PlayerState : MonoBehaviour
     {
         return Guard;
     }
+
+    public void Blind()
+    {
+
+    }
 }

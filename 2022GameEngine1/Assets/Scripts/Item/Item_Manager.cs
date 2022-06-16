@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Item_Manager : MonoBehaviour
 {
     private static Item_Manager instance;
     public GameManager gManager;
-
+    public Image blind;
     public float item_num;
 
     public bool once_call;
@@ -39,6 +40,7 @@ public class Item_Manager : MonoBehaviour
     {
         gManager = GameManager.GetInstance();
         once_call = true;
+        blind = GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -71,7 +73,7 @@ public class Item_Manager : MonoBehaviour
                 debuff01();
                 break;
             case 3:
-                debuff02();
+                Blind();
                 break;
         }
     }
@@ -90,8 +92,10 @@ public class Item_Manager : MonoBehaviour
     {
         gManager.Item_time = 0.1f;
     }
-    public void debuff02()
+    public void Blind()
     {
         gManager.Item_time = 0.2f;
+        Color color = blind.color;
+        color.a = 255;
     }
 }

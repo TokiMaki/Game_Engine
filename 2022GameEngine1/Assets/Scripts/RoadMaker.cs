@@ -13,10 +13,18 @@ public class RoadMaker : MonoBehaviour
     public List<GameObject> ObstaclePrefs;
     public GameObject RoadPref;
     
+    private StageSelect _stageInfo = StageSelect.instance;
+
+    private int _stageIndex;
+    private int _totalMeasure;
+
     // Start is called before the first frame update
     void Awake()
     {
-        init(100, 60);
+        _stageIndex = _stageInfo.arrayIndex;
+        _totalMeasure = _stageInfo.Stages[_stageIndex].timings.Length;
+        
+        init(_totalMeasure);
         Install();
         print("이상무");
     }
@@ -27,13 +35,20 @@ public class RoadMaker : MonoBehaviour
         
     }
 
-    void init(int num, float bpm)
+    void init(int num)
     {
         for (int i = 0; i < num; ++i)
         {
-            int length = Random.Range(_MinRoadlength, _MaxRoadlength);
-            Road road = new Road(i, bpm ,length, _MinObstacleInterval, _MaxObstacleInterval);
-            _Roads.Add(road);
+            for (int j = 0; j < 4; ++j)
+            {
+                int length = Random.Range(_MinRoadlength, _MaxRoadlength);
+                bool isEmpty = _stageInfo.Stages[_stageIndex].timings[i].empty;
+                
+                Road road;
+                road = new Road(i * 4 + j, isEmpty, length, _MinObstacleInterval, _MaxObstacleInterval,
+                    _stageInfo.Stages[_stageIndex].timings[i].beat);
+                _Roads.Add(road);
+            }
         }
     }
     
