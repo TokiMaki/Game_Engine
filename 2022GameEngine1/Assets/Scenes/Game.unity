@@ -130,34 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3280381053061280016, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b611503a4abfa7a488c6cb47541b9f1d, type: 2}
-    - target: {fileID: 3280381053061280018, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3280381053061280018, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: m_Constraints
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 3280381053061280018, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3280381053061280019, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3280381053061280027, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: autoPlay
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3280381053061280027, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
-      propertyPath: roadMaker
-      value: 
-      objectReference: {fileID: 2072557616}
     - target: {fileID: 3280381053061280030, guid: 29d03df8dda6e6e4d88fbc22a3fd387f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -377,7 +353,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7780713, y: 1}
+    m_SensorSize: {x: 2.0976431, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -934,7 +910,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7780713, y: 1}
+    m_SensorSize: {x: 2.0976431, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -989,6 +965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gManager: {fileID: 0}
+  blind: {fileID: 0}
   item_num: 0
   once_call: 0
 --- !u!4 &840905277
@@ -1207,7 +1184,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7780713, y: 1}
+    m_SensorSize: {x: 2.0976431, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1643,7 +1620,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7780713, y: 1}
+    m_SensorSize: {x: 2.0976431, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
